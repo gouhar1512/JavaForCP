@@ -11,14 +11,14 @@ public class Solution {
 
     Vector<Integer> v = new Vector<Integer>();
     Write.println("\n\nVector");
-    v.add(1); // add at the end
+    v.add(1);                 // add at the end
     v.add(3);
     v.add(8);
     v.add(6);
     v.add(5);
     v.add(8);
-    v.set(1, 5); // changing value at index 1
-    v.remove(v.size() - 1); // remove from the end
+    v.set(1, 5);             // changing value at index 1
+    v.remove(v.size() - 1);  // remove from the end
     for (int i = 0; i < v.size(); i++) {
       Write.print(v.get(i));
     }
